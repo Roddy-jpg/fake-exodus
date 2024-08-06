@@ -25,6 +25,8 @@ class FakeExodusWallet:
         self.create_widgets()
         logging.info("Initialized the FakeExodusWallet application.")
 
+# total gui iit
+    
     def create_widgets(self):
         self.notebook = ttk.Notebook(self.root)
         self.notebook.pack(pady=10, expand=True)
@@ -117,6 +119,8 @@ class FakeExodusWallet:
         logging.info("Cleared all transaction history.")
         self.update_statistics()
 
+    # log form uui
+    
     def logout(self):
         logging.info("User logged out.")
         self.root.quit()
